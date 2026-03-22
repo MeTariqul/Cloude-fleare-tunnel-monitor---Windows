@@ -1,0 +1,95 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uilds/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# VS Code
+.vscode/
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of PackageRestore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+# NuGet v3's project.json files adds more info
+# See https://docs.microsoft.com/nuget/consume-packages/package-restore#restore-lock-file
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of the go coverage tooling
+*.out
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript v1 declaration files
+typings/
+
+# Optional .env file
+.env
+
+# Optional VS Code extension settings
+.vscode/
+
+# Optional Unity project files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Ll]ogs/
+
+# Cloudflare Tunnel Monitor specific
+publish/
+publish-single/
+publish-fd/
+publish-sc/
+*.exe
+!cloudflared.exe
+
+# Application data
+%AppData%/
+AppData/
+
+# Log files
+*.log
+logs/

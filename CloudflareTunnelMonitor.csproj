@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    
+    <!-- Application Information -->
+    <AssemblyName>CloudflareTunnelMonitor</AssemblyName>
+    <RootNamespace>CloudflareTunnelMonitor</RootNamespace>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Company>Cloudflare Tunnel Monitor</Company>
+    <Product>Cloudflare Tunnel Monitor</Product>
+    <Description>Windows desktop application to manage Cloudflare tunnels</Description>
+    
+  </PropertyGroup>
+
+  <!-- Copy cloudflared.exe to output if it exists in project folder -->
+  <ItemGroup>
+    <None Include="cloudflared.exe" Condition="Exists('$(MSBuildProjectDirectory)/cloudflared.exe')">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
