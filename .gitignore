@@ -80,7 +80,6 @@ typings/
 
 # Cloudflare Tunnel Monitor specific
 publish/
-publish-single/
 publish-fd/
 publish-sc/
 *.exe

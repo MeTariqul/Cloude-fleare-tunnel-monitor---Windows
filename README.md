@@ -61,13 +61,13 @@ GitHub: [https://github.com/MeTariqul](https://github.com/MeTariqul)
 
 ### Software Requirements
 - **Operating System**: Windows 10 or Windows 11
-- **.NET 8.0 Runtime** (for framework-dependent deployment)
-- **cloudflared.exe** - Download from [Cloudflare's official releases](https://github.com/cloudflare/cloudflared/releases)
+- **No .NET runtime required** (self-contained version includes .NET)
+- **cloudflared.exe** - Already included in the release package
 
 ### Hardware Requirements
 - **Processor**: 1 GHz or faster
 - **Memory**: 512 MB RAM minimum
-- **Disk Space**: 100 MB for application + space for logs
+- **Disk Space**: 300 MB for single-file application + space for logs
 
 ---
 
