@@ -84,6 +84,7 @@ publish-fd/
 publish-sc/
 *.exe
 !cloudflared.exe
+!publish-single/CloudflareTunnelMonitor.exe
 
 # Application data
 %AppData%/
